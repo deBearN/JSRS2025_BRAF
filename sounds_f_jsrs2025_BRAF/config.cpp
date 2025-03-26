@@ -487,6 +487,18 @@ class CfgWeapons
 				soundsetshot[] = {"jsrs_2025_ar15_shot_silenced_soundset","jsrs_2025_weapon_snap_silenced_soundset","jsrs_2025_556mm_silenced_tails_soundset"};
 			};
 		};
+		class Burst : Mode_Burst
+		{
+			class basesoundmodetype;
+			class standardsound: basesoundmodetype
+			{
+				soundsetshot[] = {"jsrs_2025_ar15_shot_soundset","jsrs_2025_weapon_snap_556mm_soundset","jsrs_2025_556mm_tails_soundset"};
+			};
+			class silencedsound: basesoundmodetype
+			{
+				soundsetshot[] = {"jsrs_2025_ar15_shot_silenced_soundset","jsrs_2025_weapon_snap_silenced_soundset","jsrs_2025_556mm_silenced_tails_soundset"};
+			};
+		};
 		class fullauto: mode_fullauto
 		{
 			class basesoundmodetype;
