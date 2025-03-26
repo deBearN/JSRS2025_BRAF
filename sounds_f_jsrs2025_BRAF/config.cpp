@@ -11,7 +11,7 @@ class CfgPatches
 		requiredversion = 0.1;
 		requiredAddons[] = {"jsrs_soundmod_2025_Beta","braf_weapons_assault_rifles", "braf_weapons_launchers", "braf_weapons_sniper_rifles", "braf_main","AMF_PGM_ULTIMA_RATIO", "AMF_PERSEIS_II_POLY"};
 		skipWhenMissingDependencies = 1;
-		ammo[] = {};
+		ammo[] = {"braf_308_ball","braf_338_ball","braf_556_ball","braf_762_ball","braf_R_alac_AT","braf_Igla_AA","Braf_B_127x99_Ball_Red_Tracer"};
 	};
 };
 /* TODO
