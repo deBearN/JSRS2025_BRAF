@@ -203,7 +203,6 @@ class CfgWeapons
 	{
 		nullbullet[] = {"jsrs_2025\sounds_f_jsrs2025\null.ogg",0,1,0};
 		soundbullet[] = {"nullbullet",1};
-		reloadmagazinesound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\reloads\ar_reload_generic_2.ogg",2,1,35};
 		class single: mode_semiauto
 		{
 			class basesoundmodetype;
