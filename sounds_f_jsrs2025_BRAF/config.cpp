@@ -849,16 +849,17 @@ class CfgWeapons
 	{
 		nullbullet[] = {"jsrs_2025\sounds_f_jsrs2025\null.ogg",0,1,0};
 		soundbullet[] = {"nullbullet",1};
+		reloadmagazinesound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\reloads\pistol_rook_reload.ogg",2,1,35};
 		class single: mode_semiauto
 		{
 			class basesoundmodetype;
 			class standardsound: basesoundmodetype
 			{
-				soundsetshot[] = {"jsrs_2025_acpc_shot_soundset","jsrs_2025_cal45_tails_soundset"};
+				soundsetshot[] = {"jsrs_2025_rook_shot_soundset","jsrs_2025_weapon_snap_9mm_soundset","jsrs_2025_9mm_tails_soundset"};
 			};
 			class silencedsound: basesoundmodetype
 			{
-				soundsetshot[] = {"jsrs_2025_acpc_shot_silenced_soundset","jsrs_2025_cal45_silenced_tails_soundset"};
+				soundsetshot[] = {"jsrs_2025_rook_shot_silenced_soundset","jsrs_2025_weapon_snap_silenced_soundset","jsrs_2025_9mm_silenced_tails_soundset"};
 			};
 		};
 	};
