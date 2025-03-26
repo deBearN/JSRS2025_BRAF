@@ -232,7 +232,6 @@ class CfgWeapons
 	{
 		nullbullet[] = {"jsrs_2025\sounds_f_jsrs2025\null.ogg",0,1,0};
 		soundbullet[] = {"nullbullet",1};
-		reloadmagazinesound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\reloads\ar_reload_generic_2.ogg",2,1,35};
 		class single: mode_semiauto
 		{
 			class basesoundmodetype;
@@ -322,7 +321,6 @@ class CfgWeapons
  	{
 		nullbullet[] = {"jsrs_2025\sounds_f_jsrs2025\null.ogg",0,1,0};
 		soundbullet[] = {"nullbullet",1};
-		reloadmagazinesound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\reloads\ar_reload_generic_2.ogg",2,1,35};
 		class single: mode_semiauto
 		{
 			class basesoundmodetype{};
@@ -819,7 +817,6 @@ class CfgWeapons
 	{
 		nullbullet[] = {"jsrs_2025\sounds_f_jsrs2025\null.ogg",0,1,0};
 		soundbullet[] = {"nullbullet",1};
-		reloadmagazinesound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\reloads\lmg_lim85_reload.ogg",2,1,35};
 		class manual: Mode_FullAuto
 		{
 			class basesoundmodetype;
@@ -931,7 +928,6 @@ class CfgWeapons
 	{
 		nullbullet[] = {"jsrs_2025\sounds_f_jsrs2025\null.ogg",0,1,0};
 		soundbullet[] = {"nullbullet",1};
-		reloadmagazinesound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\reloads\lmg_navid_reload.ogg",2,1,35};
 		class single: mode_semiauto
 		{
 			class basesoundmodetype;
@@ -949,7 +945,6 @@ class CfgWeapons
 	{
 		nullbullet[] = {"jsrs_2025\sounds_f_jsrs2025\null.ogg",0,1,0};
 		soundbullet[] = {"nullbullet",1};
-		reloadmagazinesound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\reloads\rifle_mar10_reload.ogg",2,1,35};
 		class single: mode_semiauto
 		{
 			class basesoundmodetype;
@@ -1012,7 +1007,6 @@ class CfgWeapons
 	{
 		nullbullet[] = {"jsrs_2025\sounds_f_jsrs2025\null.ogg",0,1,0};
 		soundbullet[] = {"nullbullet",1};
-		reloadmagazinesound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\reloads\rifle_mk18_reload.ogg",2,1,35};
 		class single: mode_semiauto
 		{
 			class basesoundmodetype;
