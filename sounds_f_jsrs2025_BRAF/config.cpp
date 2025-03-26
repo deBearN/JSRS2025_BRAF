@@ -1090,4 +1090,22 @@ class CfgWeapons
 			};
 		};
 	};
+	class BRAF_MAG_VEH: MGun
+	{
+		nullbullet[] = {"jsrs_2025\sounds_f_jsrs2025\null.ogg",0,1,0};
+		soundbullet[] = {"nullbullet",1};
+		reloadmagazinesound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\reloads\lmg_navid_reload.ogg",2,1,35};
+		class manual: mgun
+		{
+			class basesoundmodetype;
+			class standardsound: basesoundmodetype
+			{
+				soundsetshot[] = {"jsrs_2025_spmg_shot_soundset","jsrs_2025_weapon_snap_lmg_soundset","jsrs_2025_65mm_tails_soundset"};
+			};
+			class silencedsound: basesoundmodetype
+			{
+				soundsetshot[] = {"jsrs_2025_spmg_shot_silenced_soundset","jsrs_2025_weapon_snap_silenced_soundset","jsrs_2025_65mm_silenced_tails_soundset"};
+			};
+		};
+	};
 };
