@@ -751,13 +751,10 @@ class CfgWeapons
 	{
   	soundfly[] = {"jsrs_2025\sounds_f_jsrs2025\weapons\launchers\rocket_fly.ogg",1,1,1000};
 		reloadmagazinesound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\reloads\launcher_titan_reload.ogg",2,1,35};
-		class single: mode_semiauto
-		{
 			class basesoundmodetype;
 			class standardsound: basesoundmodetype
 			{
 				soundsetshot[] = {"jsrs_2025_debris_dust_soundset","jsrs_2025_titan_shot_soundset","jsrs_2025_weapon_scape_93mm_soundset","jsrs_2025_127mm_tails_soundset"};
-			};
 		};
 	};
 	class braf_launch_alac_Loaded: Launcher_Base_F
