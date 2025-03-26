@@ -920,7 +920,7 @@ class CfgWeapons
 			class basesoundmodetype;
 			class standardsound: basesoundmodetype
 			{
-				soundsetshot[] = {"jsrs_2025_cmr76_shot_soundset","jsrs_2025_weapon_snap_big_soundset","jsrs_2025_127mm_tails_soundset"};
+				soundsetshot[] = {"jsrs_2025_mar10_shot_soundset","jsrs_2025_weapon_snap_big_soundset","jsrs_2025_127mm_tails_soundset"};
 			};
 		};
 	};
